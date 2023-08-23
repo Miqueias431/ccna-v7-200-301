@@ -1,0 +1,44 @@
+                                            8ª Aula
+========================================================================================================
+Comandos:
+ ipconfig /all
+ ipconfig /release
+ ipconfig /renew
+ nslookup "google.com"
+
+Comandos: 
+    1º servidor DNS
+        Name: 'server-02'
+        Type: A Record
+        Address: '192.168.3.1'
+    2º servidor DNS
+        Name: 'ns.senac.intra'
+        Type: NS
+        Address: 'server-02'
+    3º sevidor DNS
+        Name: 'senac.intra'
+        Type: SOA
+        Primary Server Name: 'ns1.senc.intra'
+        Mail Box: 'senac@senac.intra'
+        Minimum TTL: '3600'
+        Refresh Time: '3600'
+        Retry Time: '600'
+        Expiry Time: '86400'
+    4º servidor DNS
+        Name: 'senac.intra'
+        Type: CNAME
+        Host Name: 'server-02'
+========================================================================================================
+                                            DORA
+                    
+    O termo "DORA" no contexto de DHCP (Dynamic Host Configuration Protocol) refere-se a um processo de 
+    quatro etapas que ocorre quando um dispositivo cliente, como um computador ou smartphone, tenta obter 
+    um endereço IP e outras configurações de rede de um servidor DHCP.
+========================================================================================================
+                                            DNS 
+    
+    DNS, que significa "Domain Name System" em inglês (Sistema de Nomes de Domínio, em português), é um 
+    sistema fundamental para a internet que traduz nomes de domínio legíveis por humanos em endereços IP 
+    (Protocolo de Internet). Basicamente, o DNS atua como um "telefone" da internet, traduzindo os nomes 
+    de sites que digitamos em nossos navegadores em endereços IP que os servidores da internet podem 
+    entender.
